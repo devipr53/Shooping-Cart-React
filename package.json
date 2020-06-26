@@ -1,0 +1,38 @@
+{
+  "name": "myreactapp",
+  "version": "1.0.0",
+  "description": "my first react application",
+  "main": "index.js",
+  "proxy": "http://127.0.0.1:5000/",
+  "scripts": {
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devipr53/Shooping-Cart-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Devipriya Soundarrajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devipr53/Shooping-Cart-React/issues"
+  },
+  "homepage": "https://github.com/devipr53/Shooping-Cart-React#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "mysql": "^2.18.1"
+  }
+}
